@@ -41,7 +41,7 @@ h5, p{
    }
    
 .image_carte:hover{
-    background-color:rgba(255,255,255,1);
+    opacity:1;
 }
    
 .image_carte img{opacity:0.5;}
@@ -64,10 +64,14 @@ h5, p{
     }
 
 .texte:hover{
-    background:rgba(255, 255, 255, 0);
-    color:transparent;
+opacity:0;
 }
+.card{
+    background-color:rgba(255,255,255,0.8);
 
+}
+.card:hover{
+    opacity:1;}
 .imageget{
     width:150px;
     padding:5px;
@@ -91,4 +95,18 @@ h5, p{
     height:100px;
     float:left;
     padding:5px;
+}
+
+.bloc1{
+    position: absolute;
+}
+
+.bloc2{
+    position: absolute;
+    left:35%;
+}
+
+.bloc3{
+    position: absolute;
+    left:65%;
 }
